@@ -1,0 +1,800 @@
+[
+    {
+        "id": 0,
+        "name": "Adventurer",
+        "rarity": [
+            "1",
+            "2",
+            "3"
+        ],
+        "2pc": "Max HP increased by 1,000.",
+        "4pc": "Opening a chest regenerates 30% Max HP over 5s.",
+        "flower": "Adventurer's Flower",
+        "plume": "Adventurer's Tail Feather",
+        "sands": "Adventurer's Pocket Watch",
+        "goblet": "Adventurer's Golden Goblet",
+        "circlet": "Adventurer's Bandana"
+    },
+    {
+        "id": 1,
+        "name": "Archaic Petra",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Gain a 15% Geo DMG Bonus.",
+        "4pc": "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time.",
+        "flower": "Flower of Creviced Cliff",
+        "plume": "Feather of Jagged Peaks",
+        "sands": "Sundial of Enduring Jade",
+        "goblet": "Goblet of Chiseled Crag",
+        "circlet": "Mask of Solitude Basalt"
+    },
+    {
+        "id": 2,
+        "name": "Berserker",
+        "rarity": [
+            "3",
+            "4"
+        ],
+        "2pc": "CRIT Rate +12%",
+        "4pc": "When HP is below 70%, CRIT Rate increases by an additional 24%.",
+        "flower": "Berserker's Rose",
+        "plume": "Berserker's Indigo Feather",
+        "sands": "Berserker's Timepiece",
+        "goblet": "Berserker's Bone Goblet",
+        "circlet": "Berserker's Battle Mask"
+    },
+    {
+        "id": 3,
+        "name": "Blizzard Strayer",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Cryo DMG Bonus +15%",
+        "4pc": "When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%.",
+        "flower": "Snowswept Memory",
+        "plume": "Icebreaker's Resolve",
+        "sands": "Frozen Homeland's Demise",
+        "goblet": "Frost-Weaved Dignity",
+        "circlet": "Broken Rime's Echo"
+    },
+    {
+        "id": 4,
+        "name": "Bloodstained Chivalry",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Physical DMG +25%",
+        "4pc": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s.",
+        "flower": "Bloodstained Flower of Iron",
+        "plume": "Bloodstained Black Plume",
+        "sands": "Bloodstained Final Hour",
+        "goblet": "Bloodstained Chevalier's Goblet",
+        "circlet": "Bloodstained Iron Mask"
+    },
+    {
+        "id": 5,
+        "name": "Brave Heart",
+        "rarity": [
+            "3",
+            "4"
+        ],
+        "2pc": "ATK +18%.",
+        "4pc": "Increases DMG by 30% against opponents with more than 50% HP.",
+        "flower": "Medal of the Brave",
+        "plume": "Prospect of the Brave",
+        "sands": "Fortitude of the Brave",
+        "goblet": "Outset of the Brave",
+        "circlet": "Crown of the Brave"
+    },
+    {
+        "id": 6,
+        "name": "Crimson Witch of Flames",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Pyro DMG Bonus +15%",
+        "4pc": "Increases Overloaded, Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks.",
+        "flower": "Witch's Flower of Blaze",
+        "plume": "Witch's Ever-Burning Plume",
+        "sands": "Witch's End Time",
+        "goblet": "Witch's Heart Flames",
+        "circlet": "Witch's Scorching Hat"
+    },
+    {
+        "id": 7,
+        "name": "Deepwood Memories",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Dendro DMG Bonus +15%.",
+        "4pc": "After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field.",
+        "flower": "Labyrinth Wayfarer",
+        "plume": "Scholar of Vines",
+        "sands": "A Time of Insight",
+        "goblet": "Lamp of the Lost",
+        "circlet": "Laurel Coronet"
+    },
+    {
+        "id": 8,
+        "name": "Defender's Will",
+        "rarity": [
+            "3",
+            "4"
+        ],
+        "2pc": "DEF +30%",
+        "4pc": "For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%.",
+        "flower": "Guardian's Flower",
+        "plume": "Guardian's Sigil",
+        "sands": "Guardian's Clock",
+        "goblet": "Guardian's Vessel",
+        "circlet": "Guardian's Band"
+    },
+    {
+        "id": 9,
+        "name": "Desert Pavilion Chronicle",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Anemo DMG Bonus +15%",
+        "4pc": "When Charged Attacks hit opponents, the equipping character's Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s.",
+        "flower": "The First Days of the City of Kings",
+        "plume": "End of the Golden Realm",
+        "sands": "Timepiece of the Lost Path",
+        "goblet": "Defender of the Enchanting Dream",
+        "circlet": "Legacy of the Desert High-Born"
+    },
+    {
+        "id": 10,
+        "name": "Echoes of an Offering",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "ATK +18%.",
+        "4pc": "When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s.",
+        "flower": "Soulscent Bloom",
+        "plume": "Jade Leaf",
+        "sands": "Symbol of Felicitation",
+        "goblet": "Chalice of the Font",
+        "circlet": "Flowing Rings"
+    },
+    {
+        "id": 11,
+        "name": "Emblem of Severed Fate",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Energy Recharge +20%",
+        "4pc": "Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way.",
+        "flower": "Magnificent Tsuba",
+        "plume": "Sundered Feather",
+        "sands": "Storm Cage",
+        "goblet": "Scarlet Vessel",
+        "circlet": "Ornate Kabuto"
+    },
+    {
+        "id": 12,
+        "name": "Finale of the Deep Galleries",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Cryo DMG Bonus +15%",
+        "4pc": "When the equipping character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s. After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s. This effect can trigger even if the equipping character is off the field.",
+        "flower": "Deep Gallery's Echoing Song",
+        "plume": "Deep Gallery's Distant Pact",
+        "sands": "Deep Gallery's Moment of Oblivion",
+        "goblet": "Deep Gallery's Bestowed Banquet",
+        "circlet": "Deep Gallery's Lost Crown"
+    },
+    {
+        "id": 13,
+        "name": "Flower of Paradise Lost",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Increases Elemental Mastery by 80.",
+        "4pc": "The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%, and their Lunar-Bloom reaction DMG is increased by 10%. Additionally, after the equipping character triggers Bloom, Hyperbloom, Lunar-Bloom, or Burgeon, they will gain another 25% bonus to the effects mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field.",
+        "flower": "Ay-Khanoum's Myriad",
+        "plume": "Wilting Feast",
+        "sands": "A Moment Congealed",
+        "goblet": "Secret-Keeper's Magic Bottle",
+        "circlet": "Amethyst Crown"
+    },
+    {
+        "id": 14,
+        "name": "Fragment of Harmonic Whimsy",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "ATK +18%.",
+        "4pc": "When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s. Max 3 stacks.",
+        "flower": "Harmonious Symphony Prelude",
+        "plume": "Ancient Sea's Nocturnal Musing",
+        "sands": "The Grand Jape of the Turning of Fate",
+        "goblet": "Ichor Shower Rhapsody",
+        "circlet": "Whimsical Dance of the Withered"
+    },
+    {
+        "id": 15,
+        "name": "Gambler",
+        "rarity": [
+            "3",
+            "4"
+        ],
+        "2pc": "Increases Elemental Skill DMG by 20%.",
+        "4pc": "Defeating an opponent has a 100% chance to remove Elemental Skill CD. Can only occur once every 15s.",
+        "flower": "Gambler's Brooch",
+        "plume": "Gambler's Feather Accessory",
+        "sands": "Gambler's Pocket Watch",
+        "goblet": "Gambler's Dice Cup",
+        "circlet": "Gambler's Earrings"
+    },
+    {
+        "id": 16,
+        "name": "Gilded Dreams",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Increases Elemental Mastery by 80.",
+        "4pc": "Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field.",
+        "flower": "Dreaming Steelbloom",
+        "plume": "Feather of Judgment",
+        "sands": "The Sunken Years",
+        "goblet": "Honeyed Final Feast",
+        "circlet": "Shadow of the Sand King"
+    },
+    {
+        "id": 17,
+        "name": "Gladiator's Finale",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "ATK +18%.",
+        "4pc": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%.",
+        "flower": "Gladiator's Nostalgia",
+        "plume": "Gladiator's Destiny",
+        "sands": "Gladiator's Longing",
+        "goblet": "Gladiator's Intoxication",
+        "circlet": "Gladiator's Triumphus"
+    },
+    {
+        "id": 18,
+        "name": "Golden Troupe",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Increases Elemental Skill DMG by 20%.",
+        "4pc": "Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field.",
+        "flower": "Golden Song's Variation",
+        "plume": "Golden Bird's Shedding",
+        "sands": "Golden Era's Prelude",
+        "goblet": "Golden Night's Bustle",
+        "circlet": "Golden Troupe's Reward"
+    },
+    {
+        "id": 19,
+        "name": "Heart of Depth",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Hydro DMG Bonus +15%",
+        "4pc": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.",
+        "flower": "Gilded Corsage",
+        "plume": "Gust of Nostalgia",
+        "sands": "Copper Compass",
+        "goblet": "Goblet of Thundering Deep",
+        "circlet": "Wine-Stained Tricorne"
+    },
+    {
+        "id": 20,
+        "name": "Husk of Opulent Dreams",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "DEF +30%",
+        "4pc": "A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost.",
+        "flower": "Bloom Times",
+        "plume": "Plume of Luxury",
+        "sands": "Song of Life",
+        "goblet": "Calabash of Awakening",
+        "circlet": "Skeletal Hat"
+    },
+    {
+        "id": 21,
+        "name": "Instructor",
+        "rarity": [
+            "3",
+            "4"
+        ],
+        "2pc": "Increases Elemental Mastery by 80.",
+        "4pc": "Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s.",
+        "flower": "Instructor's Brooch",
+        "plume": "Instructor's Feather Accessory",
+        "sands": "Instructor's Pocket Watch",
+        "goblet": "Instructor's Tea Cup",
+        "circlet": "Instructor's Cap"
+    },
+    {
+        "id": 22,
+        "name": "Lavawalker",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Pyro RES increased by 40%.",
+        "4pc": "Increases DMG against opponents affected by Pyro by 35%.",
+        "flower": "Lavawalker's Resolution",
+        "plume": "Lavawalker's Salvation",
+        "sands": "Lavawalker's Torment",
+        "goblet": "Lavawalker's Epiphany",
+        "circlet": "Lavawalker's Wisdom"
+    },
+    {
+        "id": 23,
+        "name": "Long Night's Oath",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Plunging Attack DMG increased by 25%.",
+        "4pc": "After the equipping character's Plunging Attack/Charged Attack/Elemental Skill hits an opponent, they will gain 1/2/2 stack(s) of \"Radiance Everlasting.\" Plunging Attacks, Charged Attacks, or Elemental Skills can each trigger this effect once every 1s. Radiance Everlasting: Plunging Attacks deal 15% increased DMG for 6s. Max 5 stacks. Each stack's duration is counted independently.",
+        "flower": "Lightkeeper's Pledge",
+        "plume": "Nightingale's Tail Feather",
+        "sands": "Undying One's Mourning Bell",
+        "goblet": "A Horn Unwinded",
+        "circlet": "Dyed Tassel"
+    },
+    {
+        "id": 24,
+        "name": "Lucky Dog",
+        "rarity": [
+            "1",
+            "2",
+            "3"
+        ],
+        "2pc": "DEF increased by 100.",
+        "4pc": "Picking up Mora restores 300 HP.",
+        "flower": "Lucky Dog's Clover",
+        "plume": "Lucky Dog's Eagle Feather",
+        "sands": "Lucky Dog's Hourglass",
+        "goblet": "Lucky Dog's Goblet",
+        "circlet": "Lucky Dog's Silver Circlet"
+    },
+    {
+        "id": 25,
+        "name": "Maiden Beloved",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Character Healing Effectiveness +15%",
+        "4pc": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.",
+        "flower": "Maiden's Distant Love",
+        "plume": "Maiden's Heart-stricken Infatuation",
+        "sands": "Maiden's Passing Youth",
+        "goblet": "Maiden's Fleeting Leisure",
+        "circlet": "Maiden's Fading Beauty"
+    },
+    {
+        "id": 26,
+        "name": "Marechaussee Hunter",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Normal and Charged Attack DMG +15%",
+        "4pc": "When current HP increases or decreases, CRIT Rate will be increased by 12% for 5s. Max 3 stacks.",
+        "flower": "Hunter's Brooch",
+        "plume": "Masterpiece's Overture",
+        "sands": "Moment of Judgment",
+        "goblet": "Forgotten Vessel",
+        "circlet": "Veteran's Visage"
+    },
+    {
+        "id": 27,
+        "name": "Martial Artist",
+        "rarity": [
+            "3",
+            "4"
+        ],
+        "2pc": "Normal and Charged Attack DMG +15%",
+        "4pc": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s.",
+        "flower": "Martial Artist's Red Flower",
+        "plume": "Martial Artist's Feather Accessory",
+        "sands": "Martial Artist's Water Hourglass",
+        "goblet": "Martial Artist's Wine Cup",
+        "circlet": "Martial Artist's Bandana"
+    },
+    {
+        "id": 28,
+        "name": "Night of the Sky's Unveiling",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Increases Elemental Mastery by 80.",
+        "4pc": "When nearby party members trigger Lunar Reactions, if the equipping character is on the field, gain the Gleaming Moon: Intent effect for 4s: Increases CRIT Rate by 15%/30% when the party's Moonsign is Nascent Gleam/Ascendant Gleam. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack.",
+        "flower": "Bloom of the Mind's Desire",
+        "plume": "Feather of Indelible Sin",
+        "sands": "Revelation's Toll",
+        "goblet": "Vessel of Plenty",
+        "circlet": "Crown of the Befallen"
+    },
+    {
+        "id": 29,
+        "name": "Nighttime Whispers in the Echoing Woods",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "ATK +18%.",
+        "4pc": "After using an Elemental Skill, gain a 20% Geo DMG Bonus for 10s. While under a shield granted by the Crystallize reaction, the above effect will be increased by 150%, and this additional increase disappears 1s after that shield is lost.",
+        "flower": "Selfless Floral Accessory",
+        "plume": "Honest Quill",
+        "sands": "Faithful Hourglass",
+        "goblet": "Magnanimous Ink Bottle",
+        "circlet": "Compassionate Ladies' Hat"
+    },
+    {
+        "id": 30,
+        "name": "Noblesse Oblige",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Elemental Burst DMG +20%",
+        "4pc": "Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.",
+        "flower": "Royal Flora",
+        "plume": "Royal Plume",
+        "sands": "Royal Pocket Watch",
+        "goblet": "Royal Silver Urn",
+        "circlet": "Royal Masque"
+    },
+    {
+        "id": 31,
+        "name": "Nymph's Dream",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Hydro DMG Bonus +15%",
+        "4pc": "After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG Bonus will be increased by 4%/9%/15%. Mirrored Nymph stacks created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently.",
+        "flower": "Odyssean Flower",
+        "plume": "Wicked Mage's Plumule",
+        "sands": "Nymph's Constancy",
+        "goblet": "Heroes' Tea Party",
+        "circlet": "Fell Dragon's Monocle"
+    },
+    {
+        "id": 32,
+        "name": "Obsidian Codex",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%.",
+        "4pc": "After the equipping character consumes 1 Nightsoul point while on the field, CRIT Rate increases by 40% for 6s. This effect can trigger once every second.",
+        "flower": "Reckoning of the Xenogenic",
+        "plume": "Root of the Spirit-Marrow",
+        "sands": "Myths of the Night Realm",
+        "goblet": "Pre-Banquet of the Contenders",
+        "circlet": "Crown of the Saints"
+    },
+    {
+        "id": 33,
+        "name": "Ocean-Hued Clam",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Healing Bonus +15%.",
+        "4pc": "When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field.",
+        "flower": "Sea-Dyed Blossom",
+        "plume": "Deep Palace's Plume",
+        "sands": "Cowry of Parting",
+        "goblet": "Pearl Cage",
+        "circlet": "Crown of Watatsumi"
+    },
+    {
+        "id": 34,
+        "name": "Pale Flame",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Physical DMG is increased by 25%.",
+        "4pc": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%.",
+        "flower": "Stainless Bloom",
+        "plume": "Wise Doctor's Pinion",
+        "sands": "Moment of Cessation",
+        "goblet": "Surpassing Cup",
+        "circlet": "Mocking Mask"
+    },
+    {
+        "id": 35,
+        "name": "Resolution of Sojourner",
+        "rarity": [
+            "3",
+            "4"
+        ],
+        "2pc": "ATK +18%.",
+        "4pc": "Increases Charged Attack CRIT Rate by 30%.",
+        "flower": "Heart of Comradeship",
+        "plume": "Feather of Homecoming",
+        "sands": "Sundial of the Sojourner",
+        "goblet": "Goblet of the Sojourner",
+        "circlet": "Crown of Parting"
+    },
+    {
+        "id": 36,
+        "name": "Retracing Bolide",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Increases Shield Strength by 35%.",
+        "4pc": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG.",
+        "flower": "Summer Night's Bloom",
+        "plume": "Summer Night's Finale",
+        "sands": "Summer Night's Moment",
+        "goblet": "Summer Night's Waterballoon",
+        "circlet": "Summer Night's Mask"
+    },
+    {
+        "id": 37,
+        "name": "Scholar",
+        "rarity": [
+            "3",
+            "4"
+        ],
+        "2pc": "Energy Recharge +20%",
+        "4pc": "Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s.",
+        "flower": "Scholar's Bookmark",
+        "plume": "Scholar's Quill Pen",
+        "sands": "Scholar's Clock",
+        "goblet": "Scholar's Ink Cup",
+        "circlet": "Scholar's Lens"
+    },
+    {
+        "id": 38,
+        "name": "Scroll of the Hero of Cinder City",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "When a nearby party member triggers a Nightsoul Burst, the equipping character regenerates 6 Elemental Energy.",
+        "4pc": "After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 15s. If the equipping character is in the Nightsoul's Blessing state when triggering this effect, all nearby party members gain an additional 28% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 20s. The equipping character can trigger this effect while off-field, and the DMG bonus from Artifact Sets with the same name do not stack.",
+        "flower": "Beast Tamer's Talisman",
+        "plume": "Mountain Ranger's Marker",
+        "sands": "Mystic's Gold Dial",
+        "goblet": "Wandering Scholar's Claw Cup",
+        "circlet": "Demon-Warrior's Feather Mask"
+    },
+    {
+        "id": 39,
+        "name": "Shimenawa's Reminiscence",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "ATK +18%.",
+        "4pc": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.",
+        "flower": "Entangling Bloom",
+        "plume": "Shaft of Remembrance",
+        "sands": "Morning Dew's Moment",
+        "goblet": "Hopeful Heart",
+        "circlet": "Capricious Visage"
+    },
+    {
+        "id": 40,
+        "name": "Silken Moon's Serenade",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Energy Recharge +20%.",
+        "4pc": "When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam. The equipping character can trigger this effect while off-field. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack.",
+        "flower": "Crystal Tear of the Wanderer",
+        "plume": "Pristine Plume of the Blessed",
+        "sands": "Frost Devotee's Delirium",
+        "goblet": "Joyous Glory of the Pure",
+        "circlet": "Holy Crown of the Believer"
+    },
+    {
+        "id": 41,
+        "name": "Song of Days Past",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Healing Bonus +15%.",
+        "4pc": "When the equipping character heals a party member, the Yearning effect will be created for 6s, which records the total amount of healing provided (including overflow healing). When the duration expires, the Yearning effect will be transformed into the \"Waves of Days Past\" effect: When your active party member hits an opponent with a Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst, the DMG dealt will be increased by 8% of the total healing amount recorded by the Yearning effect. The \"Waves of Days Past\" effect is removed after it has taken effect 5 times or after 10s. A single instance of the Yearning effect can record up to 15,000 healing, and only a single instance can exist at once, but it can record the healing from multiple equipping characters. Equipping characters on standby can still trigger this effect.",
+        "flower": "Forgotten Oath of Days Past",
+        "plume": "Recollection of Days Past",
+        "sands": "Echoing Sound From Days Past",
+        "goblet": "Promised Dream of Days Past",
+        "circlet": "Poetry of Days Past"
+    },
+    {
+        "id": 42,
+        "name": "Tenacity of the Millelith",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "HP +20%",
+        "4pc": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field.",
+        "flower": "Flower of Accolades",
+        "plume": "Ceremonial War-Plume",
+        "sands": "Orichalceous Time-Dial",
+        "goblet": "Noble's Pledging Vessel",
+        "circlet": "General's Ancient Helm"
+    },
+    {
+        "id": 43,
+        "name": "The Exile",
+        "rarity": [
+            "3",
+            "4"
+        ],
+        "2pc": "Energy Recharge +20%",
+        "4pc": "Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack.",
+        "flower": "Exile's Flower",
+        "plume": "Exile's Feather",
+        "sands": "Exile's Pocket Watch",
+        "goblet": "Exile's Goblet",
+        "circlet": "Exile's Circlet"
+    },
+    {
+        "id": 44,
+        "name": "Thundering Fury",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Electro DMG Bonus +15%",
+        "4pc": "Increases the DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, the DMG Bonus conferred by Aggravate by 20%, and the DMG caused by Lunar-Charged by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
+        "flower": "Thunderbird's Mercy",
+        "plume": "Survivor of Catastrophe",
+        "sands": "Hourglass of Thunder",
+        "goblet": "Omen of Thunderstorm",
+        "circlet": "Thunder Summoner's Crown"
+    },
+    {
+        "id": 45,
+        "name": "Thundersoother",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Electro RES increased by 40%.",
+        "4pc": "Increases DMG against opponents affected by Electro by 35%.",
+        "flower": "Thundersoother's Heart",
+        "plume": "Thundersoother's Plume",
+        "sands": "Hour of Soothing Thunder",
+        "goblet": "Thundersoother's Goblet",
+        "circlet": "Thundersoother's Diadem"
+    },
+    {
+        "id": 46,
+        "name": "Tiny Miracle",
+        "rarity": [
+            "3",
+            "4"
+        ],
+        "2pc": "All Elemental RES increased by 20%.",
+        "4pc": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s.",
+        "flower": "Tiny Miracle's Flower",
+        "plume": "Tiny Miracle's Feather",
+        "sands": "Tiny Miracle's Hourglass",
+        "goblet": "Tiny Miracle's Goblet",
+        "circlet": "Tiny Miracle's Earrings"
+    },
+    {
+        "id": 47,
+        "name": "Traveling Doctor",
+        "rarity": [
+            "1",
+            "2",
+            "3"
+        ],
+        "2pc": "Increases incoming healing by 20%.",
+        "4pc": "Using Elemental Burst restores 20% HP.",
+        "flower": "Traveling Doctor's Silver Lotus",
+        "plume": "Traveling Doctor's Owl Feather",
+        "sands": "Traveling Doctor's Pocket Watch",
+        "goblet": "Traveling Doctor's Medicine Pot",
+        "circlet": "Traveling Doctor's Handkerchief"
+    },
+    {
+        "id": 48,
+        "name": "Unfinished Reverie",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "ATK +18%.",
+        "4pc": "After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field.",
+        "flower": "Dark Fruit of Bright Flowers",
+        "plume": "Faded Emerald Tail",
+        "sands": "Moment of Attainment",
+        "goblet": "The Wine-Flask Over Which the Plan Was Hatched",
+        "circlet": "Crownless Crown"
+    },
+    {
+        "id": 49,
+        "name": "Vermillion Hereafter",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "ATK +18%.",
+        "4pc": "After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This further increase can occur this way a maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled.",
+        "flower": "Flowering Life",
+        "plume": "Feather of Nascent Light",
+        "sands": "Solar Relic",
+        "goblet": "Moment of the Pact",
+        "circlet": "Thundering Poise"
+    },
+    {
+        "id": 50,
+        "name": "Viridescent Venerer",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Anemo DMG Bonus +15%",
+        "4pc": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
+        "flower": "In Remembrance of Viridescent Fields",
+        "plume": "Viridescent Arrow Feather",
+        "sands": "Viridescent Venerer's Determination",
+        "goblet": "Viridescent Venerer's Vessel",
+        "circlet": "Viridescent Venerer's Diadem"
+    },
+    {
+        "id": 51,
+        "name": "Vourukasha's Glow",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "HP +20%",
+        "4pc": "Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field.",
+        "flower": "Stamen of Khvarena's Origin",
+        "plume": "Vibrant Pinion",
+        "sands": "Ancient Abscission",
+        "goblet": "Feast of Boundless Joy",
+        "circlet": "Heart of Khvarena's Brilliance"
+    },
+    {
+        "id": 52,
+        "name": "Wanderer's Troupe",
+        "rarity": [
+            "4",
+            "5"
+        ],
+        "2pc": "Increases Elemental Mastery by 80.",
+        "4pc": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or a Bow.",
+        "flower": "Troupe's Dawnlight",
+        "plume": "Bard's Arrow Feather",
+        "sands": "Concert's Final Hour",
+        "goblet": "Wanderer's String-Kettle",
+        "circlet": "Conductor's Top Hat"
+    }
+]
