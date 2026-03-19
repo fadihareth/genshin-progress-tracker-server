@@ -1208,5 +1208,16 @@
             "3": "Philosophies of Elysium"
         },
         "weeklyBossMaterial": "Eroded Horn"
+    },
+    "Varka": {
+        "attack": "Favonius Bladework: Dancing Radiance",
+        "skill": "Windbound Execution",
+        "burst": "Northwind Avatar",
+        "talentMaterial": {
+            "1": "Teachings of Freedom",
+            "2": "Guide to Freedom",
+            "3": "Philosophies of Freedom"
+        },
+        "weeklyBossMaterial": "Ascended Sample: Rook"
     }
 }

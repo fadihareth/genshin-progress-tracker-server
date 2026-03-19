@@ -2198,5 +2198,25 @@
             "2": "Reinforced Drive Shaft",
             "3": "Precision Drive Shaft"
         }
+    },
+    {
+        "id": 110,
+        "name": "Varka",
+        "title": "Knight of Boreas",
+        "description": "Grand Master of the Knights of Favonius. Knight of Boreas, protector of Mondstadt.",
+        "weapon": "Claymore",
+        "gender": "Male",
+        "rarity": 5,
+        "birthday": "2/17",
+        "element": "Anemo",
+        "region": "Mondstadt",
+        "substat": "CRIT DMG",
+        "localSpecialtyMaterial": "Wolfhook",
+        "worldBossMaterial": "Prismatic Severed Tail",
+        "worldDropMaterial": {
+            "1": "Broken Drive Shaft",
+            "2": "Reinforced Drive Shaft",
+            "3": "Precision Drive Shaft"
+        }
     }
 ]

@@ -10805,5 +10805,55 @@
             "2": "Trimmed Red Silk",
             "3": "Rich Red Brocade"
         }
+    },
+    {
+        "id": 220,
+        "name": "Gest of the Mighty Wolf",
+        "description": "Legend has it that this greatsword was forged by the hand of Ravenwood, who inherited the name of Boreas, prior to his ascension to knighthood.",
+        "type": "Claymore",
+        "rarity": "5",
+        "baseAtk": 46,
+        "baseAtkMax": 608,
+        "mainStat": "CRIT Rate",
+        "mainStatValue": "7.2",
+        "mainStatValueMax": "33.1",
+        "effectname": "Indomitable Chivalry",
+        "effect": "Increase ATK SPD by 10%. Every time the equipping character's Normal Attack(s) hit opponent(s), when they cast their Elemental Skill, or when they begin their Charged Attack(s), gain 1/2/2 stacks of Four Winds' Hymn respectively: DMG dealt is increased by {0} for 4s. Max 4 stacks. This effect can be triggered once every 0.01s.\nAdditionally, when the party has the \"Hexerei: Secret Rite\" effect, each stack of Four Winds' Hymn also increases the equipping character's CRIT DMG by {1}.",
+        "r1": [
+            "7.5%",
+            "7.5%"
+        ],
+        "r2": [
+            "9.5%",
+            "9.5%"
+        ],
+        "r3": [
+            "11.5%",
+            "11.5%"
+        ],
+        "r4": [
+            "13.5%",
+            "13.5%"
+        ],
+        "r5": [
+            "15.5%",
+            "15.5%"
+        ],
+        "weaponMaterial": {
+            "1": "Boreal Wolf's Milk Tooth",
+            "2": "Boreal Wolf's Cracked Tooth",
+            "3": "Boreal Wolf's Broken Fang",
+            "4": "Boreal Wolf's Nostalgia"
+        },
+        "worldDropMaterial1": {
+            "1": "Fractured Eye of the Deep Shadow",
+            "2": "Aberrant Core of the Deep Shadow",
+            "3": "Hooked Beak of the Deep Shadow"
+        },
+        "worldDropMaterial2": {
+            "1": "Recruit's Insignia",
+            "2": "Sergeant's Insignia",
+            "3": "Lieutenant's Insignia"
+        }
     }
 ]
