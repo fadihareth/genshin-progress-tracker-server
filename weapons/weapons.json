@@ -302,7 +302,7 @@
     {
         "id": 6,
         "name": "Aquila Favonia",
-        "description": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil \u2014 just like the last heroine who wielded it.",
+        "description": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil — just like the last heroine who wielded it.",
         "type": "Sword",
         "rarity": "5",
         "baseAtk": 48,
@@ -3162,7 +3162,7 @@
     {
         "id": 64,
         "name": "Fleuve Cendre Ferryman",
-        "description": "A handy length of abandoned copper pipe that was once used as a weapon. It was famous \u2014 or infamous, depending \u2014 in some circles.",
+        "description": "A handy length of abandoned copper pipe that was once used as a weapon. It was famous — or infamous, depending — in some circles.",
         "type": "Sword",
         "rarity": "4",
         "baseAtk": 42,
@@ -3607,7 +3607,7 @@
     {
         "id": 73,
         "name": "Fruitful Hook",
-        "description": "Bold Burkina from the Scions of the Canopy once made this weapon with the hero Tenoch's help \u2014 all for the sake of obtaining Flamegranates unmatched throughout Natlan.",
+        "description": "Bold Burkina from the Scions of the Canopy once made this weapon with the hero Tenoch's help — all for the sake of obtaining Flamegranates unmatched throughout Natlan.",
         "type": "Claymore",
         "rarity": "4",
         "baseAtk": 44,
@@ -4758,7 +4758,7 @@
     {
         "id": 97,
         "name": "Lumidouce Elegy",
-        "description": "A magnificent polearm adorned with azure crystal. It is said to have been a certain legendary Champion Duelist's treasure \u2014 and yet, not once was it ever used.",
+        "description": "A magnificent polearm adorned with azure crystal. It is said to have been a certain legendary Champion Duelist's treasure — and yet, not once was it ever used.",
         "type": "Polearm",
         "rarity": "5",
         "baseAtk": 46,
@@ -5922,7 +5922,7 @@
         "mainStatValue": "9",
         "mainStatValueMax": "41.3",
         "effectname": "Strong Strike",
-        "effect": "Effective only on the following platform: \n\"PlayStation\u2122Network\"\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
+        "effect": "Effective only on the following platform: \n\"PlayStation™Network\"\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
         "r1": [],
         "weaponMaterial": {
             "1": "Narukami's Wisdom",
@@ -8793,7 +8793,7 @@
         "mainStatValue": "7.7",
         "mainStatValueMax": "35.2",
         "effectname": "Descension",
-        "effect": "Effective only on the following platform: \n\"PlayStation\u2122Network\"\nHitting opponents with Normal and Charged Attacks grants a {0} chance to deal {1} ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by {2}.",
+        "effect": "Effective only on the following platform: \n\"PlayStation™Network\"\nHitting opponents with Normal and Charged Attacks grants a {0} chance to deal {1} ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by {2}.",
         "r1": [
             "50%",
             "200%",
@@ -10804,6 +10804,71 @@
             "1": "Faded Red Satin",
             "2": "Trimmed Red Silk",
             "3": "Rich Red Brocade"
+        }
+    },
+    {
+        "id": 220,
+        "name": "Golden Frostbound Oath",
+        "description": "A longbow carved from ancient whitewood, once, in ages past, wielded by the Jack Frost King of the northern lands.",
+        "type": "Bow",
+        "rarity": 5,
+        "baseAtk": 44,
+        "baseAtkMax": 542,
+        "mainStat": "CRIT DMG",
+        "mainStatValue": "19.2%",
+        "effectname": "Dawn's Salutation Returned",
+        "mainStatValueMax": "88.2",
+        "effect": "Increase DEF by {0}. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by {1}, Lunar-Crystallize Reaction DMG increases by {2}. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by {3} and Lunar-Crystallize Reaction DMG increases by {4}. This effect can be triggered even when the equipping character is off-field.",
+        "r1": [
+            "16%",
+            "40%",
+            "40%",
+            "20%",
+            "20%"
+        ],
+        "r2": [
+            "20%",
+            "50%",
+            "50%",
+            "25%",
+            "25%"
+        ],
+        "r3": [
+            "24%",
+            "60%",
+            "60%",
+            "30%",
+            "30%"
+        ],
+        "r4": [
+            "28%",
+            "70%",
+            "70%",
+            "35%",
+            "35%"
+        ],
+        "r5": [
+            "32%",
+            "80%",
+            "80%",
+            "40%",
+            "40%"
+        ],
+        "weaponMaterial": {
+            "1": "Ember of Long Night Flint",
+            "2": "Afterglow of Long Night Flint",
+            "3": "Flare of Long Night Flint",
+            "4": "Blaze of Long Night Flint"
+        },
+        "worldDropMaterial1": {
+            "1": "Faded Flaming Hilt",
+            "2": "Fractured Flaming Hilt",
+            "3": "Jeweled Flaming Hilt"
+        },
+        "worldDropMaterial2": {
+            "1": "Tattered Warrant",
+            "2": "Immaculate Warrant",
+            "3": "Frost-Etched Warrant"
         }
     }
 ]

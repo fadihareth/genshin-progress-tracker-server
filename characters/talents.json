@@ -89,8 +89,8 @@
     },
     "Barbara": {
         "attack": "Whisper of Water",
-        "skill": "Let the Show Begin\u266a",
-        "burst": "Shining Miracle\u266a",
+        "skill": "Let the Show Begin♪",
+        "burst": "Shining Miracle♪",
         "talentMaterial": {
             "1": "Teachings of Freedom",
             "2": "Guide to Freedom",
@@ -264,7 +264,7 @@
         "weeklyBossMaterial": "Dvalin's Plume"
     },
     "Diona": {
-        "attack": "K\u00e4tzlein Style",
+        "attack": "Kätzlein Style",
         "skill": "Icy Paws",
         "burst": "Signature Mix",
         "talentMaterial": {
@@ -1219,5 +1219,16 @@
             "3": "Philosophies of Freedom"
         },
         "weeklyBossMaterial": "Ascended Sample: Rook"
+    },
+    "Linnea": {
+        "attack": "Capture Protocol",
+        "skill": "Countermeasure: Lumi's Battle Cry!",
+        "burst": "Memo: Survival Guide in Extreme Conditions",
+        "talentMaterial": {
+            "1": "Teachings of Vagrancy",
+            "2": "Guide to Vagrancy",
+            "3": "Philosophies of Vagrancy"
+        },
+        "weeklyBossMaterial": "Elixir of the Heretic"
     }
 }

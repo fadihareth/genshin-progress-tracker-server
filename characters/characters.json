@@ -43,7 +43,7 @@
         "id": 2,
         "name": "Alhaitham",
         "title": "Admonishing Instruction",
-        "description": "The current scribe of the Sumeru Akademiya, a man endowed with extraordinary intelligence and talent. He lives free \u2014 free from the searching eyes of ordinary people, anyway.",
+        "description": "The current scribe of the Sumeru Akademiya, a man endowed with extraordinary intelligence and talent. He lives free — free from the searching eyes of ordinary people, anyway.",
         "weapon": "Sword",
         "gender": "Male",
         "rarity": 5,
@@ -83,7 +83,7 @@
         "id": 4,
         "name": "Amber",
         "title": "Gliding Champion",
-        "description": "Always energetic and full of life, Amber's the best \u2014 albeit only \u2014 Outrider of the Knights of Favonius.",
+        "description": "Always energetic and full of life, Amber's the best — albeit only — Outrider of the Knights of Favonius.",
         "weapon": "Bow",
         "gender": "Female",
         "rarity": 4,
@@ -312,7 +312,7 @@
         "region": "Inazuma",
         "substat": "CRIT Rate",
         "localSpecialtyMaterial": "Dendrobium",
-        "worldBossMaterial": "Artificed Spare Clockwork Component \u2014 Coppelia",
+        "worldBossMaterial": "Artificed Spare Clockwork Component — Coppelia",
         "worldDropMaterial": {
             "1": "Spectral Husk",
             "2": "Spectral Heart",
@@ -482,7 +482,7 @@
     {
         "id": 24,
         "name": "Diona",
-        "title": "K\u00e4tzlein Cocktail",
+        "title": "Kätzlein Cocktail",
         "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
         "weapon": "Bow",
         "gender": "Female",
@@ -652,7 +652,7 @@
         "region": "Fontaine",
         "substat": "ATK",
         "localSpecialtyMaterial": "Romaritime Flower",
-        "worldBossMaterial": "Artificed Spare Clockwork Component \u2014 Coppelius",
+        "worldBossMaterial": "Artificed Spare Clockwork Component — Coppelius",
         "worldDropMaterial": {
             "1": "Transoceanic Pearl",
             "2": "Transoceanic Chunk",
@@ -783,7 +783,7 @@
         "id": 39,
         "name": "Ifa",
         "title": "In the Wake of Wandering Winds",
-        "description": "A vet from the Flower-Feather Clan who cherishes the life he leads alongside all manner of living things \u2014 people, animals, you name it.",
+        "description": "A vet from the Flower-Feather Clan who cherishes the life he leads alongside all manner of living things — people, animals, you name it.",
         "weapon": "Catalyst",
         "gender": "Male",
         "rarity": 4,
@@ -963,7 +963,7 @@
         "id": 48,
         "name": "Keqing",
         "title": "Driving Thunder",
-        "description": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis's unilateral approach to policymaking in Liyue \u2014 but in truth, gods admire skeptics such as her quite a lot.",
+        "description": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis's unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.",
         "weapon": "Sword",
         "gender": "Female",
         "rarity": 5,
@@ -1172,7 +1172,7 @@
         "region": "Fontaine",
         "substat": "Anemo DMG Bonus",
         "localSpecialtyMaterial": "Lumidouce Bell",
-        "worldBossMaterial": "Artificed Spare Clockwork Component \u2014 Coppelia",
+        "worldBossMaterial": "Artificed Spare Clockwork Component — Coppelia",
         "worldDropMaterial": {
             "1": "Meshing Gear",
             "2": "Mechanical Spur Gear",
@@ -1312,7 +1312,7 @@
         "region": "Fontaine",
         "substat": "CRIT DMG",
         "localSpecialtyMaterial": "Spring of the First Dewdrop",
-        "worldBossMaterial": "Artificed Spare Clockwork Component \u2014 Coppelius",
+        "worldBossMaterial": "Artificed Spare Clockwork Component — Coppelius",
         "worldDropMaterial": {
             "1": "Transoceanic Pearl",
             "2": "Transoceanic Chunk",
@@ -1703,7 +1703,7 @@
         "id": 85,
         "name": "Tighnari",
         "title": "Verdant Strider",
-        "description": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart \u2014 and a dab hand at guiding even the dullest of pupils.",
+        "description": "A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart — and a dab hand at guiding even the dullest of pupils.",
         "weapon": "Bow",
         "gender": "Male",
         "rarity": 5,
@@ -2217,6 +2217,26 @@
             "1": "Broken Drive Shaft",
             "2": "Reinforced Drive Shaft",
             "3": "Precision Drive Shaft"
+        }
+    },
+    {
+        "id": 111,
+        "name": "Linnea",
+        "title": "Augur of Wonders",
+        "description": "Naturalist and Advisor to the Nod-Krai Branch of the Adventurers' Guild.",
+        "weapon": "Bow",
+        "gender": "Female",
+        "rarity": 5,
+        "birthday": "5/23",
+        "element": "Geo",
+        "region": "Nod-Krai",
+        "substat": "CRIT Rate",
+        "localSpecialtyMaterial": "Etherwing Moth",
+        "worldBossMaterial": "Plume of the Fallen Watcher",
+        "worldDropMaterial": {
+            "1": "Tattered Warrant",
+            "2": "Immaculate Warrant",
+            "3": "Frost-Etched Warrant"
         }
     }
 ]
