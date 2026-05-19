@@ -37,6 +37,8 @@ CATEGORIES = [
     }
 ]
 
+missing_items = set()
+
 session = requests.Session()
 
 
@@ -48,6 +50,23 @@ def sanitize_filename(name):
             .replace(" ", "_")
     )
 
+## Used only for building missing_items array
+def verify_missing_material(name):
+    if not item_exists("../items", name):
+        missing_items.add(name)
+
+def item_exists(image_folder, name):
+    webp_filepath = os.path.join(
+        image_folder,
+        sanitize_filename(name) + ".webp"
+    )
+
+    png_filepath = os.path.join(
+        image_folder,
+        sanitize_filename(name) + ".png"
+    )
+
+    return os.path.exists(webp_filepath) or os.path.exists(png_filepath)
 
 def get_missing_names(category_config):
     json_path = category_config["json_path"]
@@ -65,81 +84,43 @@ def get_missing_names(category_config):
     if category_type == "character_profiles":
         for item in data:
 
-            name = item["name"]
-            filename = sanitize_filename(name) + "_Profile"
-
-            webp_filepath = os.path.join(
-                image_folder,
-                filename + ".webp"
-            )
-
-            png_filepath = os.path.join(
-                image_folder,
-                filename + ".png"
-            )
-
-            if os.path.exists(webp_filepath) or os.path.exists(png_filepath):
+            name = item["name"] + " Profile"
+            if item_exists(image_folder, name):
                 continue
 
-            missing.append("File:" + name + " Profile.png")
+            verify_missing_material(item["localSpecialtyMaterial"])
+            verify_missing_material(item["worldBossMaterial"])
+            for i in range(1, 4):
+                verify_missing_material(item["worldDropMaterial"][str(i)])
+            missing.append("File:" + name + ".png")
     
     elif category_type == "character_icons":
         for item in data:
 
-            name = item["name"]
-            filename = sanitize_filename(name) + "_Icon"
-
-            webp_filepath = os.path.join(
-                image_folder,
-                filename + ".webp"
-            )
-
-            png_filepath = os.path.join(
-                image_folder,
-                filename + ".png"
-            )
-
-            if os.path.exists(webp_filepath) or os.path.exists(png_filepath):
+            name = item["name"] + " Icon"
+            if item_exists(image_folder, name):
                 continue
 
-            missing.append("File:" + name + " Icon.png")
+            missing.append("File:" + name + ".png")
 
     elif category_type == "weapons":
 
         for item in data:
             name = item["name"]
-
-            webp_filepath = os.path.join(
-                image_folder,
-                sanitize_filename(name) + ".webp"
-            )
-
-            png_filepath = os.path.join(
-                image_folder,
-                sanitize_filename(name) + ".png"
-            )
-
-            if os.path.exists(webp_filepath) or os.path.exists(png_filepath):
+            if item_exists(image_folder, name):
                 continue
 
+            for i in range(1, 4):
+                verify_missing_material(item["worldDropMaterial1"][str(i)])
+                verify_missing_material(item["worldDropMaterial2"][str(i)])
+            verify_missing_material(item["weaponMaterial"]["4"])
             missing.append(name)
     
     elif category_type == "artifacts":
 
         for item in data:
             name = item["flower"]
-
-            webp_filepath = os.path.join(
-                image_folder,
-                sanitize_filename(name) + ".webp"
-            )
-
-            png_filepath = os.path.join(
-                image_folder,
-                sanitize_filename(name) + ".png"
-            )
-
-            if os.path.exists(webp_filepath) or os.path.exists(png_filepath):
+            if item_exists(image_folder, name):
                 continue
 
             missing.append(name)
@@ -167,6 +148,9 @@ def get_missing_names(category_config):
                 if os.path.exists(webp_filepath) or os.path.exists(png_filepath):
                     continue
 
+                for i in range(1, 4):
+                    verify_missing_material(talent_data["talentMaterial"][str(i)])
+                verify_missing_material(talent_data["weeklyBossMaterial"])
                 missing.append(talent_name)
 
     return missing
@@ -218,15 +202,11 @@ def get_page_images(titles):
     return images
 
 
-def download_images(category_config):
+def download_images(category_config, missing_names):
     wiki_category = category_config["wiki_category"]
-    json_path = category_config["json_path"]
     image_folder = category_config["image_folder"]
 
     print(f"\n========== {wiki_category} ==========")
-
-    # Determine missing images
-    missing_names = get_missing_names(category_config)
 
     if not missing_names:
         print("No missing images!")
@@ -306,7 +286,18 @@ def main():
     print("Starting image downloader...")
 
     for category in CATEGORIES:
-        download_images(category)
+        missing_names = get_missing_names(category)
+        download_images(category, missing_names)
+    
+    download_images(
+        {
+            "wiki_category": "Item",
+            "json_path": "",
+            "image_folder": "../items",
+            "type": "items"
+        },
+        missing_items
+    )
 
     print("\nDone!")
 

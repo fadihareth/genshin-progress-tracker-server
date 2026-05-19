@@ -28,7 +28,6 @@ python3 fetch_weapons.py
 python3 fetch_talents.py
 
 python3 img_fetch.py
-python3 img_fetch_items.py
 
 cd ..
 
