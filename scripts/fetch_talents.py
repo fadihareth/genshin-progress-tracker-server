@@ -3,11 +3,12 @@ import json
 import os
 
 TALENTS_JSON_PATH = "../characters/talents.json"
-DATABASE_URL = 'http://localhost:3000/character/list'
+CHARACTER_DB_URL = 'http://localhost:3000/character/list'
+DATABASE_URL = 'http://localhost:3000/talents'
 
 
 def get_character_list():
-    return requests.get(DATABASE_URL)
+    return requests.get(CHARACTER_DB_URL).json()
 
 
 def load_existing_talents():
@@ -29,10 +30,8 @@ def load_existing_talents():
 
 
 def get_character_talents(name):
-    url = 'https://genshin-db-api.vercel.app/api/v5/talents?query=' + name.lower().strip()
-
     try:
-        response = requests.get(url)
+        response = requests.get(DATABASE_URL, params={ "name": name.lower().strip() })
 
         if response.status_code == 200:
             data = response.json()
@@ -86,7 +85,7 @@ def main():
 
     for i, character_name in enumerate(characters):
         # Skip travelers
-        if character_name in ["Lumine", "Aether"]:
+        if character_name in ["Lumine", "Aether", "Manekin", "Manekina"]:
             continue
 
         # Skip existing talents

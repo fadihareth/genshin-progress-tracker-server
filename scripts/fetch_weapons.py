@@ -7,7 +7,7 @@ DATABASE_URL = 'http://localhost:3000/weapon'
 
 
 def get_weapon_list():
-    return requests.get(DATABASE_URL + "/list")
+    return requests.get(DATABASE_URL + "/list").json()
 
 
 def load_existing_weapons():
@@ -22,54 +22,50 @@ def load_existing_weapons():
 
 
 def is_valid_weapon(name):
-    url = 'https://genshin-db-api.vercel.app/api/weapons?query=' + name.lower().strip()
-
     try:
-        response = requests.get(url)
-        return response.status_code == 200
+        response = requests.get(DATABASE_URL, params={ "name": name.lower().strip() })
+        return response.json()["rarity"] > 2
 
     except requests.exceptions.RequestException:
         return False
 
 
 def get_weapon_data(name, weapon_id):
-    url = 'https://genshin-db-api.vercel.app/api/weapons?query=' + name.lower().strip()
-
     paramsdb = {
         "name": name.lower().strip(),
         "level": 90
     }
 
     try:
-        response = requests.get(url)
-        responsedb = requests.get(DATABASE_URL, params=paramsdb)
+        response = requests.get(DATABASE_URL, params={ "name": name.lower().strip() })
+        responseStats = requests.get(DATABASE_URL + "/stats", params=paramsdb)
 
-        if response.status_code == 200 and responsedb.status_code == 200:
+        if response.status_code == 200 and responseStats.status_code == 200:
             data = response.json()
-            datadb = responsedb.json()
+            dataStats = responseStats.json()
 
             weapon = {
                 "id": weapon_id,
                 "name": data["name"],
                 "description": data["description"],
-                "type": data["weapontype"],
+                "type": data["weaponText"],
                 "rarity": data["rarity"],
-                "baseAtk": data["baseatk"],
-                "baseAtkMax": int(round(datadb["attack"], 0)),
-                "mainStat": data["substat"],
-                "mainStatValue": data["subvalue"],
-                "effectname": data["effectname"]
+                "baseAtk": int(round(data["baseAtkValue"], 0)),
+                "baseAtkMax": int(round(dataStats["attack"], 0)),
+                "mainStat": data["mainStatText"],
+                "mainStatValue": data["baseStatText"],
+                "effectname": data["effectName"]
             }
 
             # Main stat max formatting
             if weapon["mainStat"] == "Elemental Mastery":
-                weapon["mainStatValueMax"] = str(int(round(datadb["specialized"], 0)))
+                weapon["mainStatValueMax"] = str(int(round(dataStats["specialized"], 0)))
             else:
-                weapon["mainStatValueMax"] = str(round(datadb["specialized"] * 100, 1))
+                weapon["mainStatValueMax"] = str(round(dataStats["specialized"] * 100, 1))
 
             # Effect formatting
-            r1 = data["r1"]
-            effect = data["effect"]
+            r1 = data["r1"]["values"]
+            effect = data["r1"]["description"]
 
             for i in range(len(r1)):
                 effect = effect.replace(r1[i], "{" + f"{i}" + "}", 1)
@@ -78,14 +74,14 @@ def get_weapon_data(name, weapon_id):
                     print(f'Might want to double check "{name}" effect formatting!')
 
             weapon["effect"] = effect
-            weapon["r1"] = data["r1"]
+            weapon["r1"] = data["r1"]["values"]
 
             # Refinements
             if "r2" in data:
-                weapon["r2"] = data["r2"]
-                weapon["r3"] = data["r3"]
-                weapon["r4"] = data["r4"]
-                weapon["r5"] = data["r5"]
+                weapon["r2"] = data["r2"]["values"]
+                weapon["r3"] = data["r3"]["values"]
+                weapon["r4"] = data["r4"]["values"]
+                weapon["r5"] = data["r5"]["values"]
 
             # Materials
             weapon["weaponMaterial"] = {
@@ -149,11 +145,9 @@ def main():
     for i, weapon_name in enumerate(weapons):
         # Skip invalid/special weapons
         if weapon_name == "Prized Isshin Blade":
-            print("Skipping special weapon")
             continue
 
         if not is_valid_weapon(weapon_name):
-            print("Invalid weapon, skipping")
             continue
 
         # Skip existing weapons

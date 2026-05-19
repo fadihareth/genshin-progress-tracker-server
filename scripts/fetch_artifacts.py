@@ -3,11 +3,11 @@ import json
 import os
 
 ARTIFACTS_JSON_PATH = "../artifacts/artifacts.json"
-DATABASE_URL = 'http://localhost:3000/artifact/list'
+DATABASE_URL = 'http://localhost:3000/artifact'
 
 
 def get_artifact_list():
-    return requests.get(DATABASE_URL)
+    return requests.get(DATABASE_URL + "/list").json()
 
 
 def load_existing_artifacts():
@@ -22,25 +22,22 @@ def load_existing_artifacts():
 
 
 def get_artifact_data(name, artifact_id):
-    url = 'https://genshin-db-api.vercel.app/api/artifacts?query=' + name.lower().strip()
-
     try:
-        response = requests.get(url)
+        response = requests.get(DATABASE_URL, params={ "name": name.lower().strip() })
 
         if response.status_code == 200:
             data = response.json()
 
             # Skip 1pc artifacts
-            if "1pc" in data:
-                print(f"SKIPPED (1pc): {name}")
+            if "effect1Pc" in data:
                 return None
 
             artifact = {
                 "id": artifact_id,
                 "name": data["name"],
-                "rarity": data["rarity"],
-                "2pc": data["2pc"],
-                "4pc": data["4pc"],
+                "rarity": data["rarityList"],
+                "2pc": data["effect2Pc"],
+                "4pc": data["effect4Pc"],
                 "flower": data["flower"]["name"],
                 "plume": data["plume"]["name"],
                 "sands": data["sands"]["name"],

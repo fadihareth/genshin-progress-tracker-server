@@ -3,11 +3,11 @@ import json
 import os
 
 CHARACTERS_JSON_PATH = "../characters/characters.json"
-DATABASE_URL = 'http://localhost:3000/character/list'
+DATABASE_URL = 'http://localhost:3000/character'
 
 
 def get_character_list():
-    return requests.get(DATABASE_URL)
+    return requests.get(DATABASE_URL + "/list").json()
 
 
 def load_existing_characters():
@@ -22,10 +22,8 @@ def load_existing_characters():
 
 
 def get_character_data(name, character_id):
-    url = 'https://genshin-db-api.vercel.app/api/v5/characters?query=' + name.lower().strip()
-
     try:
-        response = requests.get(url)
+        response = requests.get(DATABASE_URL, params={ "name": name.lower().strip() })
 
         if response.status_code == 200:
             data = response.json()
@@ -100,7 +98,7 @@ def main():
     for i, character_name in enumerate(characters):
 
         # Skip travelers
-        if character_name in ["Lumine", "Aether"]:
+        if character_name in ["Lumine", "Aether", "Manekin", "Manekina"]:
             continue
 
         # Skip existing characters
