@@ -53,7 +53,7 @@ def get_weapon_data(name, weapon_id):
                 "baseAtk": int(round(data["baseAtkValue"], 0)),
                 "baseAtkMax": int(round(dataStats["attack"], 0)),
                 "mainStat": data["mainStatText"],
-                "mainStatValue": data["baseStatText"],
+                "mainStatValue": data["baseStatText"].replace("%", ""),
                 "effectname": data["effectName"]
             }
 

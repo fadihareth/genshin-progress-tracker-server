@@ -10815,7 +10815,7 @@
         "baseAtk": 44,
         "baseAtkMax": 542,
         "mainStat": "CRIT DMG",
-        "mainStatValue": "19.2%",
+        "mainStatValue": "19.2",
         "effectname": "Dawn's Salutation Returned",
         "mainStatValueMax": "88.2",
         "effect": "Increase DEF by {0}. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by {1}, Lunar-Crystallize Reaction DMG increases by {2}. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by {3} and Lunar-Crystallize Reaction DMG increases by {4}. This effect can be triggered even when the equipping character is off-field.",
