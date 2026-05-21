@@ -5,6 +5,11 @@ cd scripts
 
 source venv/bin/activate
 
+# Make sure genshindb is up to date
+cd genshindb
+npm update
+cd ..
+
 # Start server in background
 node genshindb/server.js &
 SERVER_PID=$!
