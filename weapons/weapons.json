@@ -10870,5 +10870,115 @@
             "2": "Immaculate Warrant",
             "3": "Frost-Etched Warrant"
         }
+    },
+    {
+        "id": 221,
+        "name": "Angelos' Heptades",
+        "description": "A golden box as splendid as the light of the heavens. According to legend, it once belonged to a divine envoy of the Eternal Court.",
+        "type": "Catalyst",
+        "rarity": 5,
+        "baseAtk": 49,
+        "baseAtkMax": 741,
+        "mainStat": "ATK",
+        "mainStatValue": "3.6",
+        "effectname": "Crown of the Final Scion",
+        "mainStatValueMax": "16.5",
+        "effect": "ATK is increased by {0}. After the equipping character creates a Shield, they gain \"Pathfinder's Light\" for 20s: Increases your active party member's DMG by {1} for every 1,000 ATK the equipping character has, up to a maximum of {2}. Additionally, when the equipping character creates a Shield, they will also gain \"Guide's Contentment\": Restores {3} Elemental Energy to the equipping character. The aforementioned effect can trigger once every 14s, and can also be triggered when any type of chest is opened outside of combat. The equipping character may trigger this effect even when they are an off-field.\nHexerei: Secret Rite: When your own Hexerei character is off-field in the party, they will also gain 50% of the DMG increase from Pathfinder's Light.",
+        "r1": [
+            "12%",
+            "10%",
+            "26%",
+            "14"
+        ],
+        "r2": [
+            "15%",
+            "13%",
+            "34%",
+            "15"
+        ],
+        "r3": [
+            "18%",
+            "16%",
+            "42%",
+            "16"
+        ],
+        "r4": [
+            "21%",
+            "19%",
+            "50%",
+            "17"
+        ],
+        "r5": [
+            "24%",
+            "22%",
+            "58%",
+            "18"
+        ],
+        "weaponMaterial": {
+            "1": "Artful Device Fragment",
+            "2": "Artful Device Replica",
+            "3": "Artful Device Inheritance",
+            "4": "Artful Device Wish"
+        },
+        "worldDropMaterial1": {
+            "1": "Faded Flaming Hilt",
+            "2": "Fractured Flaming Hilt",
+            "3": "Jeweled Flaming Hilt"
+        },
+        "worldDropMaterial2": {
+            "1": "Broken Drive Shaft",
+            "2": "Reinforced Drive Shaft",
+            "3": "Precision Drive Shaft"
+        }
+    },
+    {
+        "id": 222,
+        "name": "Disaster and Remorse",
+        "description": "A polearm forged from Whitestone and Starsilver. Its keen point is constantly enveloped in a bone-piercing chill.",
+        "type": "Polearm",
+        "rarity": 5,
+        "baseAtk": 48,
+        "baseAtkMax": 674,
+        "mainStat": "CRIT Rate",
+        "mainStatValue": "4.8",
+        "effectname": "Dolorous Stroke",
+        "mainStatValueMax": "22.1",
+        "effect": "After the equipping character uses an Elemental Skill, they gain \"Path of Conflict\" for 17s, as well as \"Unforgivable\" and \"Irreparable\" for 3s each. This effect can trigger once every 18s.\nUnforgivable: Increases the equipping character's Normal Attack and Charged Attack DMG by {0}.\nIrreparable: Increases the equipping character's Elemental Skill and Elemental Burst DMG by {1}.\nWhile Path of Conflict is in effect, when the equipping character hits an opponent with a Normal Attack or Charged Attack, Irreparable's duration will be increased by 1s. When the equipping character hits an opponent with their Elemental Skill or Elemental Burst, Unforgivable's duration will be increased by 1s. Each of the above effects can be triggered once every 0.1s. When Path of Conflict ends or the equipping character leaves the field, both Unforgivable and Irreparable will be removed.\nHexerei: Secret Rite: The above DMG boosts are increased by 75%.",
+        "r1": [
+            "40%",
+            "40%"
+        ],
+        "r2": [
+            "50%",
+            "50%"
+        ],
+        "r3": [
+            "60%",
+            "60%"
+        ],
+        "r4": [
+            "70%",
+            "70%"
+        ],
+        "r5": [
+            "80%",
+            "80%"
+        ],
+        "weaponMaterial": {
+            "1": "Tile of Decarabian's Tower",
+            "2": "Debris of Decarabian's City",
+            "3": "Fragment of Decarabian's Epic",
+            "4": "Scattered Piece of Decarabian's Dream"
+        },
+        "worldDropMaterial1": {
+            "1": "Lightless Bone",
+            "2": "Glowing Remains",
+            "3": "Radiant Exoskeleton"
+        },
+        "worldDropMaterial2": {
+            "1": "Whopperflower Nectar",
+            "2": "Shimmering Nectar",
+            "3": "Energy Nectar"
+        }
     }
 ]

@@ -2238,5 +2238,65 @@
             "2": "Immaculate Warrant",
             "3": "Frost-Etched Warrant"
         }
+    },
+    {
+        "id": 112,
+        "name": "Lohen",
+        "title": "Sharpened Arrowhead",
+        "description": "Vice Captain of the Knights of Favonius Ranged Company, a knight known for his unorthodox approach and fondness for unconventional tactics.",
+        "weapon": "Polearm",
+        "gender": "Male",
+        "rarity": 5,
+        "birthday": "4/3",
+        "element": "Cryo",
+        "region": "Mondstadt",
+        "substat": "CRIT DMG",
+        "localSpecialtyMaterial": "Etherwing Moth",
+        "worldBossMaterial": "Prismatic Severed Tail",
+        "worldDropMaterial": {
+            "1": "Firm Arrowhead",
+            "2": "Sharp Arrowhead",
+            "3": "Weathered Arrowhead"
+        }
+    },
+    {
+        "id": 113,
+        "name": "Nicole",
+        "title": "Clamor Within",
+        "description": "The Silent \"Mage,\" the Voiceless \"Angel.\"",
+        "weapon": "Catalyst",
+        "gender": "Female",
+        "rarity": 5,
+        "birthday": "9/29",
+        "element": "Pyro",
+        "region": null,
+        "substat": "ATK",
+        "localSpecialtyMaterial": "Pine Amber",
+        "worldBossMaterial": "Remnant of the Dreadwing",
+        "worldDropMaterial": {
+            "1": "Tattered Warrant",
+            "2": "Immaculate Warrant",
+            "3": "Frost-Etched Warrant"
+        }
+    },
+    {
+        "id": 114,
+        "name": "Prune",
+        "title": "Childlike Dreams Cherished",
+        "description": "A diminutive Witch Hunter who has journeyed all the way from Nod-Krai with the singular purpose of rooting out a witch who, to hear her tell it, has committed every sin imaginable — including bullying little kids!",
+        "weapon": "Catalyst",
+        "gender": "Female",
+        "rarity": 4,
+        "birthday": "11/20",
+        "element": "Anemo",
+        "region": "Mondstadt",
+        "substat": "ATK",
+        "localSpecialtyMaterial": "Winter Icelea",
+        "worldBossMaterial": "Radiant Antler",
+        "worldDropMaterial": {
+            "1": "Treasure Hoarder Insignia",
+            "2": "Silver Raven Insignia",
+            "3": "Golden Raven Insignia"
+        }
     }
 ]

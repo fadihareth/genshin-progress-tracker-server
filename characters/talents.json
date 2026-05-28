@@ -1230,5 +1230,38 @@
             "3": "Philosophies of Vagrancy"
         },
         "weeklyBossMaterial": "Elixir of the Heretic"
+    },
+    "Lohen": {
+        "attack": "Spear of Favonius — Broken Oath",
+        "skill": "Unforeseen Strike",
+        "burst": "Manifest Judgment",
+        "talentMaterial": {
+            "1": "Teachings of Resistance",
+            "2": "Guide to Resistance",
+            "3": "Philosophies of Resistance"
+        },
+        "weeklyBossMaterial": "Ascended Sample: Knight"
+    },
+    "Nicole": {
+        "attack": "Allegoria",
+        "skill": "Revelation: Uncreated Light",
+        "burst": "Revelation: Ladder of Divine Ascent",
+        "talentMaterial": {
+            "1": "Teachings of Elysium",
+            "2": "Guide to Elysium",
+            "3": "Philosophies of Elysium"
+        },
+        "weeklyBossMaterial": "Counterfeit Resin"
+    },
+    "Prune": {
+        "attack": "Badaboom! Hexbuster Hammer",
+        "skill": "Ring-A-Ding-Ding! Hexhunter Chime",
+        "burst": "The Bell Tolls! The Hunt Is On!",
+        "talentMaterial": {
+            "1": "Teachings of Resistance",
+            "2": "Guide to Resistance",
+            "3": "Philosophies of Resistance"
+        },
+        "weeklyBossMaterial": "Mask of the Virtuous Doctor"
     }
 }
