@@ -10980,5 +10980,55 @@
             "2": "Shimmering Nectar",
             "3": "Energy Nectar"
         }
+    },
+    {
+        "id": 223,
+        "name": "A Teaspoon of Transcendence",
+        "description": "An object of fantasy with countless definitions amidst an endless sea of stories. On the grand scale of the universe or the realm of dreams, there is no real difference between the holy sword of the brave warrior and the princess's teaspoon, or between the ice-cold clockspring and the key that will unlock the gates of transcendence...",
+        "type": "Claymore",
+        "rarity": 5,
+        "baseAtk": 48,
+        "baseAtkMax": 674,
+        "mainStat": "CRIT DMG",
+        "mainStatValue": "9.6",
+        "effectname": "White Fairy's Queening",
+        "mainStatValueMax": "44.1",
+        "effect": "ATK is increased by {0}.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by {1} for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+        "r1": [
+            "28%",
+            "16%"
+        ],
+        "r2": [
+            "35%",
+            "20%"
+        ],
+        "r3": [
+            "42%",
+            "24%"
+        ],
+        "r4": [
+            "49%",
+            "28%"
+        ],
+        "r5": [
+            "56%",
+            "32%"
+        ],
+        "weaponMaterial": {
+            "1": "Sundered Glory of the Far-North Scions",
+            "2": "Unyielding Delusion of the Far-North Scions",
+            "3": "Oblation of the Far-North Scions",
+            "4": "Aureate Radiance of the Far-North Scions"
+        },
+        "worldDropMaterial1": {
+            "1": "Fractured Lunar Iron",
+            "2": "Depleted Lunar Iron",
+            "3": "Unblemished Lunar Iron"
+        },
+        "worldDropMaterial2": {
+            "1": "Tattered Warrant",
+            "2": "Immaculate Warrant",
+            "3": "Frost-Etched Warrant"
+        }
     }
 ]

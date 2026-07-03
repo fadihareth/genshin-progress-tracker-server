@@ -2298,5 +2298,25 @@
             "2": "Silver Raven Insignia",
             "3": "Golden Raven Insignia"
         }
+    },
+    {
+        "id": 115,
+        "name": "Sandrone",
+        "title": "Mirrored Analysis",
+        "description": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party.",
+        "weapon": "Claymore",
+        "gender": "Female",
+        "rarity": 5,
+        "birthday": "1/13",
+        "element": "Cryo",
+        "region": null,
+        "substat": "CRIT Rate",
+        "localSpecialtyMaterial": "Subdetection Unit",
+        "worldBossMaterial": "Plume of the Fallen Watcher",
+        "worldDropMaterial": {
+            "1": "Broken Drive Shaft",
+            "2": "Reinforced Drive Shaft",
+            "3": "Precision Drive Shaft"
+        }
     }
 ]

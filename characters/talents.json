@@ -1263,5 +1263,16 @@
             "3": "Philosophies of Resistance"
         },
         "weeklyBossMaterial": "Mask of the Virtuous Doctor"
+    },
+    "Sandrone": {
+        "attack": "Formule Phenomenale: Self-Evident Proposition",
+        "skill": "Formule Phenomenale: Differential Analysis",
+        "burst": "Formule Phenomenale: Q.E.D.",
+        "talentMaterial": {
+            "1": "Teachings of Vagrancy",
+            "2": "Guide to Vagrancy",
+            "3": "Philosophies of Vagrancy"
+        },
+        "weeklyBossMaterial": "Madman's Restraint"
     }
 }
